@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Finder</title>
+    <link rel="stylesheet" href="assets//css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="js-primary">
+        <!-- Header Start -->
+        <header class="jf-main-header">
+            <div class="container">
+                <div class="jf-header-inner">
+                    <div class="jf-header-left">
+                        <a href="index.html" class="jf-logo">jF</a>
+                    </div>
+                    <div class="jf-header-right">
+                        <div class="jf-login-register">
+                            <a href="login.html" class="jf-login">Login</a> /
+                            <a href="register.html" class="jf-register">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Banner Start -->
+        <section class="jf-banner">
+            <div class="container">
+                <div class="jf-banner-content">
+                    <h1>Register</h1>
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
+
+        <!-- login card start -->
+        <section class="jf-login-section">
+            <div class="container">
+                <div class="jf-login-register-inner">
+                    <div class="jf-login-register-card">
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" name="full-name" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Password">
+                        </div>
+                        <div class="form-jf-user-type">
+                            <label for="jf-user-type">User Type</label>
+                            <select id="jf-user-type" name="jf-user-type">
+                                <option value="employer">I am an Employer</option>
+                                <option value="job-seeker">I am a Job Seeker</option>
+                            </select>
+                        </div>
+
+                        <button id="login-button" type="submit">Register</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- login card End -->
+
+        <!-- Footer Start -->
+        <footer class="jf-footer">
+            <div class="container">
+                <div class="jf-footer-bottom">
+                    <p>© 2025 Sakib. All Right Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </main>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
